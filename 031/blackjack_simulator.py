@@ -120,7 +120,7 @@ for i in range(0, cpus):
 # wait for everything to finish
 for proc in processes:
 	proc.join()
-
+ 
 finish_time = time.time() - start_time
 
 # get totals
